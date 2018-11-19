@@ -1,0 +1,41 @@
+/* Animation */
+/*===Arrow Type 1===*/
+/*===Arrow Type 2===*/
+/*===List column items===*/
+.wrap-changeIMG {
+  margin: 20px auto;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: flex; }
+  .wrap-changeIMG .main-img {
+    margin-right: 7px; }
+  .wrap-changeIMG .list-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: space-between; }
+    .wrap-changeIMG .list-img .item-img a {
+      line-height: 0; }
+      .wrap-changeIMG .list-img .item-img a img {
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        /* For IE8 and earlier */
+        width: 188px;
+        height: 125px; }
+    .wrap-changeIMG .list-img .item-img.active a img, .wrap-changeIMG .list-img .item-img:hover a img {
+      opacity: 1; }
+
+/*# sourceMappingURL=changeIMG.css.map */

@@ -1,0 +1,62 @@
+/* Animation */
+/*===Arrow Type 1===*/
+/*===Arrow Type 2===*/
+/*===List column items===*/
+.wrap-accordion {
+  margin: 20px auto;
+  padding: 20px; }
+  .wrap-accordion .list-accordion .item-accordion {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; }
+    .wrap-accordion .list-accordion .item-accordion .title {
+      background-color: rgba(0, 0, 0, 0.1);
+      padding: 10px;
+      color: rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      line-height: 1;
+      font-size: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -moz-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      -webkit-justify-content: space-between;
+      -moz-justify-content: space-between;
+      -ms-justify-content: space-between;
+      justify-content: space-between;
+      -ms-flex-pack: space-between; }
+      .wrap-accordion .list-accordion .item-accordion .title:after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-right: 2px solid rgba(0, 0, 0, 0.8);
+        border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: relative;
+        top: -3px; }
+      .wrap-accordion .list-accordion .item-accordion .title.active {
+        background-color: green;
+        color: white; }
+        .wrap-accordion .list-accordion .item-accordion .title.active:after {
+          content: "";
+          width: 10px;
+          height: 10px;
+          border-right: 2px solid rgba(255, 255, 255, 0.8);
+          border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+          -webkit-transform: rotate(-135deg);
+          -ms-transform: rotate(-135deg);
+          -o-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+          top: 3px; }
+    .wrap-accordion .list-accordion .item-accordion .content-accordion {
+      padding: 20px;
+      display: none; }
+
+/*# sourceMappingURL=accordion.css.map */
